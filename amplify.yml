@@ -1,6 +1,6 @@
 version: 1
 applications:
-  - appRoot: next-amplified
+  - appRoot: MonoRepo/next-amplified/
     frontend:
       phases:
         preBuild:
@@ -16,7 +16,7 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-  - appRoot: vite-project
+  - appRoot: MonoRepo/vite-project/
     frontend:
       phases:
         preBuild:
