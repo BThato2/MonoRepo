@@ -10,7 +10,7 @@ applications:
           commands:
             - npm run build
       artifacts:
-        baseDirectory: dist/apps/app_name/.next
+        baseDirectory: dist/apps/next-amplified/.next
         files:
           - '**/*'
       cache:
