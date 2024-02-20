@@ -2,6 +2,7 @@ version: 1
 applications:
   - appRoot: MonoRepo/next-amplified/
     frontend:
+      buildPath: /
       phases:
         preBuild:
           commands:
